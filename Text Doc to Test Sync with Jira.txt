@@ -1,10 +1,13 @@
 new line
-SP-57
+SP-57 again
 SP-46
 
 
 Jira / Git Smart Commits
 ------------------------
+
+https://confluence.atlassian.com/bitbucket/processing-jira-software-issues-with-smart-commit-messages-298979931.html
+
 
 The basic syntax for a Smart Commit message is:
 
