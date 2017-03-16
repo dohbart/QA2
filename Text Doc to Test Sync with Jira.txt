@@ -1,4 +1,31 @@
 new line
 SP-57
-
 SP-46
+
+
+Jira / Git Smart Commits
+------------------------
+
+The basic syntax for a Smart Commit message is:
+
+<ignored text> <ISSUE_KEY> <ignored text> #<COMMAND> <optional COMMAND_ARGUMENTS>
+
+Any text between the issue key and the command is ignored.
+There are three commands you can use in your Smart Commit messages:
+- comment
+- time
+- transition
+
+
+Example	- Comment
+SP-57 #comment added smart commit info
+
+Example - Time
+SP-57 #time 1w 2d 4h 30m Total work logged
+
+Example - Transition
+SP-57 #close Fixed this today
+
+Notes	
+This example executes the close issue workflow transition for the issue and adds the comment 'Fixed this today' to the issue.
+Note that the comment is added automatically without needing to use the #comment command.
